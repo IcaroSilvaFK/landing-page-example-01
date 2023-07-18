@@ -1,0 +1,28 @@
+@import "./variables";
+
+.container__header {
+  width: 100%;
+  border-bottom: 1px solid $light-pink;
+  padding: 22px 0;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      color: $light-pink;
+    }
+  }
+}
